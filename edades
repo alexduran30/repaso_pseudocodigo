@@ -1,0 +1,62 @@
+//analisis
+//queremos hallar el numero mayor y el numero menor entre tres edades Y saber si es mayor o igual a 18 o no 
+// tenemos 3 variables para ser mayor de edad tiene que tener mas o igual a 18 años
+//salida de resultado: finalmente el pseudocodigo imprime los resultando mostrando cual es el numero mayor y cuales de las edades son mayores de edad
+//diseño 
+//dividir el problema
+//entrada de datos: se piden 3 edades
+//determinar si las 3 edades son mayores de edad o no con el comando si- entonces para comparar cada edad 
+// determinar cual es la mayor edad entre las 3 edades con el comando si - entonces para comparar todas las edades y determinar la edad mayor
+// determinar cual es la edad menor entre las 3 edades con el comando si - entonces para comparar todas las edades y determinar la edad menor
+//pseudocodigo
+Algoritmo edades
+	Definir var1, var2, var3 Como Entero
+	edad = 18
+	Mostrar "Ingrese la primera edad:"
+	Leer var1
+	Mostrar "Ingrese la segunda edad:"
+	Leer var2
+	Mostrar "Ingrese la tercera edad:"
+	Leer var3
+	
+	Si var1 >= edad Entonces
+		Mostrar "La primera edad es mayor de edad"
+	Sino
+		Mostrar "La primera edad no es mayor de edad"
+	Fin Si
+	
+	Si var2 >= edad Entonces
+		Mostrar "La segunda edad es mayor de edad"
+	Sino
+		Mostrar "La segunda edad no es mayor de edad"
+	Fin Si
+	
+	Si var3 >= edad Entonces
+		Mostrar "La tercera edad es mayor de edad"
+	Sino
+		Mostrar "La tercera edad no es mayor de edad"
+	Fin Si
+	
+	// Ahora, determinamos la edad mayor y menor
+	
+	Si var1 > var2 Entonces
+		Si var1 > var3 Entonces
+			Mostrar "La edad mayor es " + ConvertirATexto(var1)
+		Sino
+			Mostrar "La edad mayor es " + ConvertirATexto(var3)
+		Fin Si
+	Sino
+		Mostrar "La edad mayor es " + ConvertirATexto(var2)
+	Fin Si
+	
+	Si var1 < var2 Entonces
+		Si var1 < var3 Entonces
+			Mostrar "La edad menor es " + ConvertirATexto(var1)
+		Sino
+			Mostrar "La edad menor es " + ConvertirATexto(var3)
+		Fin Si
+	Sino
+		Mostrar "La edad menor es " + ConvertirATexto(var2)
+	Fin Si
+
+FinAlgoritmo
