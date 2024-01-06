@@ -1,9 +1,12 @@
-//analisis
-//queremos hallar el numero mayor y el numero menor entre tres edades Y saber si es mayor o igual a 18 o no 
-// tenemos 3 variables para ser mayor de edad tiene que tener mas o igual a 18 años
+//ANALISIS
+//definicion del problema: queremos hallar el numero mayor y el numero menor entre tres edades Y saber si es mayor o igual a 18 o no 
+//datos de entrada: define tres variables enteras: var1, var2, var3, y establece la edad de referencia en 18.
+//Compara cada edad con el valor de referencia (18) para determinar si son mayores o menores de edad.
 //salida de resultado: finalmente el pseudocodigo imprime los resultando mostrando cual es el numero mayor y cuales de las edades son mayores de edad
-//diseño 
-//dividir el problema
+
+
+//DISEÑO
+//dividir el problema en etapas simples
 //entrada de datos: se piden 3 edades
 //determinar si las 3 edades son mayores de edad o no con el comando si- entonces para comparar cada edad 
 // determinar cual es la mayor edad entre las 3 edades con el comando si - entonces para comparar todas las edades y determinar la edad mayor
